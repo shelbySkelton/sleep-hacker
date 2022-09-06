@@ -11,16 +11,18 @@ to initiate a reset of their circadian clock.
 - Moment.js
 
 ## Sleep Hacker is deployed using Netlify at:
-https://shiny-croissant-ff43f3.netlify.app/set-back
-
+https://sleep-hacker.netlify.app/
 
 
 ## User Demo
 https://user-images.githubusercontent.com/106750549/188710996-858d5b86-2851-4ac7-a763-8233ae0d4b8a.mp4
 
 ## To install and run locally:
-1. Fork this repository
-2. Clone to your local computer
-3. In VScode terminal cd into the directory
-4. Type npm install
-5. When you are ready to open on your browser, type npm run start
+1. Fork and clone this repo to your local machine
+2. Copy the ssh address to assign to your local clone with git remote add origin <paste-your-ssh-address-here>
+3. 'npm install' to add project dependencies to your local machine
+4. 'npm run start' will build your React app and start your localhost server in your browser
+5. Happy coding!
+
+## Contact:
+shelbyskelton09@gmail.com

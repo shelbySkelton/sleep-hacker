@@ -60,6 +60,7 @@ const SetAhead = () => {
                     <p className="sub-content">(Average your last 3-5 days)</p>
                 </section>
                 <Container sx={{ width: 700 }} id='container'>
+                    <div className="center-picker">
                     <LocalizationProvider
                         dateAdapter={AdapterDayjs}
                     >
@@ -77,7 +78,9 @@ const SetAhead = () => {
                                 actionBar: { actions: [""] }
                             }}
                         />
-                    </LocalizationProvider><br></br>
+                    </LocalizationProvider>
+                    </div>
+                    <br></br>
                     <span className="steps">Step 2: </span>
                     <span className="directions-content">How much earlier do you want to fall asleep?</span>
                     <InputLabel variant="standard" htmlFor="uncontrolled-native">

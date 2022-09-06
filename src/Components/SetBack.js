@@ -61,6 +61,7 @@ const SetBack = () => {
                     <p className="sub-content">(Average your last 3-5 days)</p>
                 </section>
                 <Container sx={{ width: 700 }} id='container'>
+                    <div className="center-picker">
                     <LocalizationProvider
                         dateAdapter={AdapterDayjs}
                     >
@@ -78,7 +79,9 @@ const SetBack = () => {
                                 actionBar: { actions: [""] }
                             }}
                         />
-                    </LocalizationProvider><br></br>
+                    </LocalizationProvider>
+                    </div>
+                    <br></br>
                     <span className="steps">Step 2: </span>
                     <span className="directions-content">How much later do you want to fall asleep?</span>
                     <InputLabel variant="standard" htmlFor="uncontrolled-native">
